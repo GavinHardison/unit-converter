@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+#main-div {
+    height: 729px;
+    width: 550px;
+    margin: 126px auto 0;
+    background: #F4F4F4;
+}
+
+#top-div {
+    height: 285px;
+    width: 100%;
+    background: #6943FF;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    margin-top: 33px;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+#input-number {
+    margin: 30px auto 0;
+    height: 83px;
+    width: 117px;
+    border: 2px solid #B295FF;
+    border-radius: 8px;
+    background: #6943FF;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 58px;
+    font-weight: 700;
+}
+
+#input-number:focus {
+    outline: none;
+}
