@@ -11,10 +11,10 @@ body {
 }
 
 #main-div {
-    height: 729px;
     width: 550px;
     margin: 126px auto 0;
     background: #F4F4F4;
+    padding-bottom: 35px;
 }
 
 #top-div {
@@ -34,7 +34,7 @@ body {
 }
 
 #input-number {
-    margin: 30px auto 0;
+    margin: 30px auto 25px;
     height: 83px;
     width: 117px;
     border: 2px solid #B295FF;
@@ -48,4 +48,42 @@ body {
 
 #input-number:focus {
     outline: none;
+}
+
+#convert-button {
+    height: 42px;
+    width: 117px;
+    background: #FFFFFF;
+    color: #3D3D3D;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-weight: 600;
+}
+
+#bottom-div {
+    background: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+    padding-top: 36px;
+}
+
+.conversion-div {
+    background: white;
+    width: 500px;
+    text-align: center;
+    padding: 31px 0 19px;
+}
+
+.unit-header {
+    color: #5A537B;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 9px;
+}
+
+.conversion-p {
+    color: #353535;
 }
